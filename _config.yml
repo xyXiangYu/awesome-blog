@@ -6,6 +6,19 @@ description: "A wonderful site about awesome blogging"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+# your gh-pages url: https://username.github.io
+url: https://xyxiangyu.github.io/awesome-blog/
+# your repository name: /repository
+baseurl: /go-go-ghpages
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 # Build settings
 markdown: kramdown
 theme: minima
